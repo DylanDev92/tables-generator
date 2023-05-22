@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --base: #F1F6F9;
+    --second: #394867;
+    --dark: #212A3E;
+    --light: #9BA4B5;
+}
+
+button, input {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--base);
+    margin: 5em;
+    text-align: center;
+}
+
+.input-table {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.input-fields {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--light);
+    font-size: 20px;
+    padding: 0.5em;
+    color: var(--dark);
+}
+
+label {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button {
+    padding: 1em;
+    border-radius: 10px;
+    margin: 0em 1em;
+    margin-top: 1.5em;
+    background-color: var(--dark);
+    color: var(--base);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.table-style {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#display-message {
+    color: var(--light);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    color: var(--dark);
+}
+
+table {
+    background-color: var(--second);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+tr {
+    color: var(--base);
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: var(--dark);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+tr td:first-child {
+    background-color: var(--light);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    overflow-x: hidden;
+    color: var(--light)
+}
+
+#panda {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
+}
+
+.panda-image {
+    height: 80px;
+}
+
+#panda-message {
+    background-color: var(--light);
+    color: var(--base);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}

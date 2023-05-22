@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Dynamic table</title>
+  </head>
+
+  <!--- Dylan Chang | 301294233 --->
+
+  <body>
+    <div class="title">
+      <h1>Dynamic multiplication table</h1>
+      <h2>&copy; Dylan Chang | 301294233</h2>
+    </div>
+
+    <h3 id="display-message">&nbsp;</h3>
+
+    <div class="input-table">
+      <div class="input-fields">
+        <label for="input-row">Rows</label>
+        <input value="10" type="text" id="input-row" />
+      </div>
+      <div class="input-fields">
+        <label for="input-column">Columns</label>
+        <input value="10" type="text" id="input-column" />
+      </div>
+    </div>
+
+    <button onclick="clickGenerate()">Click to generate</button>
+    <button onclick="clickDelete()">Delete table</button>
+
+    <div class="table-style">
+      <div id="table"></div>
+    </div>
+
+    <div id="panda">
+      <p id="panda-message">Click on me!</p>
+      <img onclick="clickPanda()" id="panda-image" class="panda-image" src="./src/panda.png" alt="" />
+    </div>
+
+    <footer>
+      <p>&copy; Made by Dylan Chang | 301294233</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
